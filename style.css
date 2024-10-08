@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+/* header section style */
+.header {
+    display: flex;
+    flex-basis: 100%;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.header .logo {
+    height: 35px;
+    width: auto;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.header .nav a {
+    padding: 10px 0;
+    margin-left: 10px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .login a {
+    margin-left: 10px;
+}
+
+.header .login .login-btn {
+    background: #f1f1f1;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header .login .start-btn {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+.header .login .globe {
+    width: 36px;
+    height: 36px;
+}
+
+.header .login .globe .globe-img {
+    height: 90%;
+    width: auto;
+    margin-top: 2px;
+}
