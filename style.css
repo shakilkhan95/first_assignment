@@ -72,3 +72,113 @@
     width: auto;
     margin-top: 2px;
 }
+
+/* hero section style */
+.hero-section {
+    width: 100%;
+    height: 530px;
+    background-image: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: comer;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & .container {
+        width: 90%;
+        height: 340px;
+        background-color: #fff;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+        padding: 30px;
+
+        & .form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+
+            & h1 {
+                font-size: 48px;
+                font-weight: 600;
+                margin-bottom: 40px;
+            }
+            
+            .row1 {
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+                padding: 0 60px;
+
+                & select {
+                    flex-basis: 25%;
+                    background-color: #cfcfcf;
+                    padding: 8px 18px;
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    appearance: none;
+                    -webkit-appearance: none;
+                    background-image: url(images/Vector.png);
+                    background-repeat: no-repeat;
+                    background-position: right 20px center;
+                    margin-bottom: 20px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    }
+                }
+            }
+
+            .row2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                padding: 0 60px;
+
+                & input {
+                    background-color: #cfcfcf;
+                    padding: 8px 18px;
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    flex-basis: 75%;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+
+                button {
+                    flex-basis: 25%;
+                    border: none;
+                    outline: none;
+                    border-radius: 30px;
+                    padding: 8px 18px;
+                    background: #00EBC7;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .hero-btn {
+        padding: 8px 18px;
+        margin-top: 30px;
+        border: 1px solid #fff;
+        border-radius: 25px;
+
+        & a {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        hr {
+            color: #fff;
+            width: 100%;
+        }
+    }
+}

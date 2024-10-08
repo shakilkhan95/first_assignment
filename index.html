@@ -27,16 +27,16 @@
     </header>
 
     <!-- hero section markup -->
-     <section class="hero-sec">
-        <form action="#" method="post">
-            <h1>Find your offer ✨</h1>
+     <section class="hero-section">
+        <div class="container">
+            <div class="form">
+                <h1>Find your offer ✨</h1>
 
-            <div class="form-input">
-                <div class="input1">
+                <div class="row1">
                     <select name="currency" id="currency">
-                        <option value="Currency" selected>Currency</option>
-                        <option value="USD">USD</option>
-                        <option value="BDT">BDT</option>
+                        <option value="currency" selected>Currency</option>
+                        <option value="usd">USD</option>
+                        <option value="bdt">BDT</option>
                     </select>
 
                     <select name="buy" id="buy">
@@ -44,30 +44,30 @@
                         <option value="payment">Payment</option>
                     </select>
 
-                    
                     <select name="payment" id="payment">
                         <option value="payment" selected>Payment</option>
-                        <option value="buy" >Buy</option>
+                        <option value="buy">Buy</option>
                     </select>
 
                     <select name="currency" id="currency">
-                        <option value="Currency" selected>Currency</option>
-                        <option value="USD">USD</option>
-                        <option value="BDT">BDT</option>
+                        <option value="currency" selected>Currency</option>
+                        <option value="usd">USD</option>
+                        <option value="bdt">BDT</option>
                     </select>
                 </div>
-            </div>
 
-            <div class="form-input2">
-                <div class="user-input">
-                    <input type="text" name="user-input" id="user-input" value="How much">
+                <div class="row2">
+                    <input type="text" name="text" id="text" value="How much">
+
+                    <button>Find offer</button>
                 </div>
-
-                <button type="submit" class="form-btn">Find offer</button>
             </div>
-        </form>
+        </div>
 
-        <a href="#" class="hero-btn">Why Zappr?</a>
+        <div class="hero-btn">
+            <a href="#">Why Zappr?</a>
+            <hr>
+        </div>
      </section>
 </body>
 </html>
