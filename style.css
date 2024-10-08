@@ -372,4 +372,34 @@
     font-weight: 500;
     border-radius: 15px;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+/* details section style */
+.details-section {
+    background-color: #CFBAFF;
+    border-top: 1px solid #000;
+}
+
+.details-section .details-text {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.details-text h1 {
+    font-size: 60px;
+    padding: 5% 12%;
+}
+
+.details-text button {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 33px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 25px;
+    cursor: pointer;
 }
