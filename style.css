@@ -187,7 +187,7 @@
 /* favorite section style */
 .favorite {
     width: 100%;
-    height: 350px;
+    padding: 9% 0;
     background-color: #FDE24F;
     text-align: center;
     display: flex;
@@ -215,7 +215,7 @@
 /* feature section style */
 .feature {
     width: 100%;
-    height: 600px;
+    padding: 9% 0;
     background-color: #fff;
     border-bottom: 1px solid #000;
     text-align: center;
@@ -277,4 +277,99 @@
         border-radius: 30px;
         color: #000;
     }
+}
+
+/* trade section style */
+.trade-section {
+    width: 100%;   
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trade-section p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.trade-section .buy-btn,
+.trade-section .sell-btn {
+    text-align: center;
+}
+
+.trade-section .buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 50%;
+    border-right: 1px solid #000;
+    padding: 5% 5%;
+}
+
+.trade-section .buy h3 {
+    font-size: 32px;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+.trade-section .buy-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.trade-section .buy-details div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px 40px 10px 0px;
+}
+
+.trade-section .sell {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-left: 40px;
+    padding: 5% 5%;
+
+}
+
+.trade-section .sell h3 {
+    font-size: 32px;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+.trade-section .sell-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.trade-section .sell-details div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.trade-section button {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    padding: 12px 30px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-top: 20px;
 }
