@@ -533,6 +533,10 @@
         text-align: center;
     }
 
+    .trade-section .sell {
+        margin-left: 0;
+    }
+
     .trade-section .sell h3 {
         text-align: center;
     }
