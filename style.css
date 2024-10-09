@@ -18,6 +18,10 @@
     padding: 20px 5%;
 }
 
+.header .menu {
+    display: none;
+}
+
 .header .logo {
     height: 35px;
     width: auto;
@@ -26,6 +30,7 @@
 .logo img {
     height: 100%;
 }
+
 
 .header .nav a {
     padding: 10px 0;
@@ -43,6 +48,7 @@
 
 .header .login a {
     margin-left: 10px;
+    color: #000;
 }
 
 .header .login .login-btn {
@@ -126,6 +132,7 @@
     background-position: right 20px center;
     font-size: 22px;
     font-weight: 500;
+    transition: all .3s ease;
 }
 
 .row2 {
@@ -134,6 +141,7 @@
     align-items: center;
     flex-wrap: nowrap;
     gap: 10px;
+    transition: all 0.3s ease;
 }
 
 .hero-section .row2 .input {
@@ -146,6 +154,7 @@
     text-align: center;
     font-size: 22px;
     font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 .hero-section .row2 button {
@@ -158,6 +167,7 @@
     cursor: pointer;
     border-radius: 30px;
     flex-basis: 24%;
+    transition: all 0.3s ease;
 }
 
 .hero-section .hero-btn {
@@ -209,8 +219,8 @@
     background-color: #fff;
     border-bottom: 1px solid #000;
     text-align: center;
-    padding: 60px 5%;
     border-bottom: 1px solid #000;
+    transition: all 0.3s ease;
 
     & .feature-h3 {
         font-size: 32px;
@@ -223,6 +233,7 @@
         justify-content: center;
         align-items: center;
         padding: 50px 70px;
+        transition: all 0.3s ease;
 
         & .col1 {
             padding: 30px 10px;
@@ -244,7 +255,6 @@
             }
 
             .link {
-                width: fit-content;
                 text-align: center;
                 margin-top: 30px;
 
@@ -276,10 +286,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
 }
 
 .trade-section p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -380,6 +391,7 @@
 .details-text h1 {
     font-size: 60px;
     padding: 5% 12%;
+    transition: all 0.3s ease;
 }
 
 .details-text button {
@@ -407,6 +419,7 @@
     padding: 5%;
     display: flex;
     justify-content: space-around;
+    transition: all 0.3s ease;
 }
 
 .footer-links div {
@@ -419,6 +432,7 @@
     font-size: 28px;
     font-weight: 600;
     padding-bottom: 30px;
+    transition: all 0.3s ease;
 }
 
 .footer-links a {
@@ -445,3 +459,144 @@
 
 
 /* website responsive design */
+@media (max-device-width: 1290px) {
+    .trade-section img {
+        width: 3vw;
+    }
+
+    .trade-section p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+
+@media (max-device-width: 1012px) {
+    .row1 select {
+        flex-basis: 49%;
+    }
+}
+
+@media (max-device-width: 818px) {
+    .hero-section .row2 button {
+        padding: 14px 18px;
+    }
+
+    .details-text h1 {
+        font-size: 50px;
+        padding: 5% 12%;
+    }
+
+}
+
+@media (max-device-width: 768px) {
+    .header .nav {
+        display: none;
+    }
+
+    .header .menu {
+        display: inline-block;
+        padding: 7px 10px;
+        border-radius: 50%;
+        background-color: #ececec;
+        cursor: pointer;
+    }
+
+    .hero-section .row2 input {
+        flex-basis: 69%;
+    }
+
+    .hero-section .row2 button {
+        flex-basis: 30%;
+    }
+
+    .feature {
+        padding: 3% 0;
+    }
+
+    .feature .container2 {
+        padding: 20px 30px;
+    }
+
+    .trade-section {
+        flex-direction: column;
+    }
+
+    .trade-section .buy {
+        border: none;
+    }
+
+    .trade-section .buy-details div {
+        margin-right: 0;
+    }
+
+    .trade-section .buy h3 {
+        text-align: center;
+    }
+
+    .trade-section .sell h3 {
+        text-align: center;
+    }
+}
+
+@media (max-device-width: 674px) {
+    .row1 select {
+        flex-basis: 100%;
+    }
+
+    .hero-section .row2 {
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .hero-section .row2 #text {
+        width: 100%;
+    }
+
+    .feature .feature-h3{
+        text-align: center;
+    }
+
+    .feature .container2 {
+        flex-direction: column;
+        padding: 0 20%;
+    }
+
+    .feature .container2 .col-hr {
+        display: none;
+    }
+
+    .details-text h1 {
+        padding: 5%;
+    }
+
+    .footer-links h4 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .footer-links a {
+        font-size: 12px;
+    }
+
+    .footer-text p {
+        font-size: 10px;
+    }
+}
+
+@media (max-device-width: 532px) {
+    .header .login {
+        display: none;
+    }
+}
+
+@media (max-device-width: 480px) {
+    .footer .footer-links {
+        padding: 1;
+        flex-wrap: wrap;
+    }
+
+    .footer-links div {
+        flex-basis: 49%;
+        padding-top: 20px;
+    }
+}
